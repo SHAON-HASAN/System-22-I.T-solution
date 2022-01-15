@@ -1,0 +1,406 @@
+
+
+/*..... Typography .....*/
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #2f1174 !important;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #2f1174 !important;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif; 
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*..... Spacing .....*/
+
+.gap100 {
+    padding: 70px 0px;
+}
+
+.lttl {
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+/*..... Navbar Decoration .....*/
+
+.trn {
+    background: transparent !important;
+    z-index: 99;
+}
+
+.bgc {
+    background: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+    color: #f810ab !important;
+    text-shadow: 3px 3px 5px #777;
+    margin-left: 10px;
+    height: 50px;
+    margin-top: -15px;
+}
+
+.nav-item a:hover {
+    border-bottom: 2px solid #cf46a1;
+    color: #f30999d5 !important;
+}
+
+.active a {
+    margin-right: 20px;
+    font-weight: bold; 
+    border-bottom: 2px solid #f16ac4;
+}
+
+.mrt a {
+    background: #cf329b;
+    color: #fff !important;
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px 15px !important;
+    margin-right: 7px;
+    box-shadow: 3px 3px 5px #777;
+}
+
+.mrt a:hover {
+    background: #0b48b9;
+    box-shadow: none;
+}
+
+/*..... Page Header .....*/
+
+#phdr {
+    background-image: linear-gradient(#181174, #731397);
+    margin-top: 70px;
+}
+
+.h2w {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #fff !important;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.bread {
+    color: #fff;
+    padding-top: 35px;
+}
+
+.bread a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*..... Slider Section .....*/
+
+/* .bd-example{
+    margin-top: -100px;
+} */
+
+.carousel-item img {
+    height: 50% !important;
+}
+
+.carousel-caption {
+    margin-bottom: 20%;
+    border-radius: 20px;
+    color: #fff;
+    width: 70%;
+
+}
+
+.carousel-caption h5 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
+.drk:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #626364;
+    opacity: 0.3;
+}
+
+.ccd {
+    background: #00000033;
+    border-radius: 20%;
+}
+
+
+/*..... Buttons .....*/
+
+.btn-primary {
+    background: #cf329b;
+    border-color: transparent !important;
+    color: #fff !important;
+    width: 120px !important;
+    border-radius: 7px;
+    padding: 5px 15px !important;
+    width: 115px;
+    text-align: center;
+    
+}
+
+.btn-primary:hover {
+    background: darkblue;
+}
+
+.btn-danger {
+    background: #1c8991;
+    border-color: transparent !important;
+    color: #fff !important;
+    width: 120px !important;
+    border-radius: 7px;
+    padding: 5px 15px !important;
+    width: 115px;
+    text-align: center;
+    
+}
+
+.btn-danger:hover {
+    background: #8b006d;
+}
+
+/*..... Footer .....*/
+
+.smed i {
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+/*..... Team SSection .....*/
+
+#team {
+    background-image: linear-gradient(#181174, #731397);
+}
+
+.tm {
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 10px #f72ddc;
+}
+
+.tm i {
+    color: #731397;
+    font-size: 27px;
+    padding: 0px 5px 5px 5px;
+}
+
+.tm i:hover {
+    color: #181174;
+}
+
+/*..... Gallery .....*/
+
+.pic {
+    padding: 10px;
+    border: #181174 5px solid;
+}
+
+/*..... Section Blu .....*/
+
+.blu {
+    background: #181174;
+}
+
+.h3w {
+    color: #fff !important;
+}
+
+.atx {
+    padding: 0px 25px;
+}
+
+/*..... Pricing Tables .....*/
+
+#price {
+    background-image: linear-gradient(#181174, #731397);
+}
+
+.card {
+    background-image: linear-gradient(#45a2ee, #d38dec);
+    border: 2px solid #fff;
+    box-shadow: 5px 5px 10px #222;
+}
+
+.pbody hr {
+    border-top: 1px solid #fff;
+    width: 100px;
+}
+
+.ptitle h4 {
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.pprice span {
+    font-size: 14px;
+}
+
+.popular {
+    background: #181174;
+    padding: 10px;
+}
+
+.mcard {
+    margin-top: -30px;
+}
+
+.prtabs {
+    padding-top: 30px;
+}
+
+/*..... Services .....*/
+
+.serv {
+    padding: 25px;
+}
+
+.srv i {
+    font-size: 40px;
+    color: #181174;
+    float: left;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+
+
+/*..... Blurb .....*/
+
+#blurb {
+    background-image: linear-gradient(#181174, #731397);
+}
+
+.blb i {
+    font-size: 60px;
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.blb {
+    padding: 25px;
+}
+
+.blp {
+    min-height: 125px;
+}
+
+/*..... Features .....*/
+
+#features {
+    background-image: url(image/ft2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+
+.fbtn {
+    padding-top: 11%;
+}
+
+#flist {
+    background-image: linear-gradient(#373192, #731397);
+}
+
+.media img {
+    max-width: 170px;
+}
+
+/*..... Accordion .....*/
+
+.btn-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-link i {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+/*..... Pre Footer ..... */
+#pfooter {
+    background: #181174;
+}
+
+.pft {
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+
+.pft a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*..... Address .....*/
+.pft i {
+    margin-right: 10px;
+    color: #f5c54b;
+}
+.pft .btn {
+    float: right;
+    margin-top: -10px;
+    text-transform: none;
+}
+
+/*..... Contact .....*/
+#chero {
+    background: url(image/ctbg3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+#chero p {
+    color: black;
+    font-weight: bold;
+    
+}
+
+#cont {
+    background-image: linear-gradient(#3d33c0, #55146d);
+}
